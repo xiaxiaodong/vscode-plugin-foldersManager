@@ -1,7 +1,9 @@
 import * as vscode from 'vscode';
 import * as fs from 'fs';
 import { initTreeView } from './nodeDep';
-
+// 参考文档 
+// 中文版 https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/
+// 官方 https://code.visualstudio.com/api
 
 export function activate(context: vscode.ExtensionContext) {
 	

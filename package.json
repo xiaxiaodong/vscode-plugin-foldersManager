@@ -2,9 +2,9 @@
 	"name": "foldersManager",
 	"displayName": "foldersManager",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "xiaxiaodong",
-	"repository": "",
+	"repository": "https://github.com/xiaxiaodong/vscode-plugin-foldersManager",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
@@ -63,6 +63,7 @@
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile",
+		"publish": "vsce package",
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
